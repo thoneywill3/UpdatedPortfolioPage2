@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- for IE compatibility -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
   <title>Bootstrap Portfolio</title>
   <script src="https://use.fontawesome.com/2214a7171f.js"></script><!--  font aweome -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">    
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">  
   <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
@@ -20,9 +19,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
         <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-        <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a></li>
       </ul><!-- navbar-nav -->
     </div><!-- collapse -->
   </div><!-- container -->
@@ -36,8 +35,30 @@
       <div class="card col-lg-8 mt-4">
         <div class="card-body">
           <h4 class="card-title">Contact</h4><hr>
-<!--      <img src="images/profile.jpg" class="float-left col-lg-6 col-md-6 col-sm-6" alt="profile picture">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -->
+
+
+
+
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Name</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="John Smith">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Email</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="example@gmail.com">
+  </div>
+  
+  <div class="form-group">
+    <label for="exampleTextarea">Message</label>
+    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+  </div>
+
+  <button type="submit" class="btn btn-success">Submit</button>
+</form>
+
+
+
         </div><!-- card-body -->
       </div><!-- card col-lg-8 -->
 
@@ -70,25 +91,21 @@
         </div><!-- card-body -->
       </div><!-- card -->
     </div><!-- col-lg-3 -->
-    
+
   </div><!-- /row justify-content-between -->
 
-  <div class="row">
-    <nav class="navbar fixed-bottom navbar-light bg-light">
-      <div class="container">
-        <span class="navbar-text mx-auto">&copy;Copyright 2017 Jeff Studenski</span>
-      </div>
-    </nav>
-  </div><!-- /row -->
 
   </div><!-- container -->
 
 
+  <footer class="footer">
+    <div class="container">
+      <span class="text-muted">&copy;Copyright 2017 Jeff Studenski</span>
+    </div>
+  </footer>
 
-
-
-
-
-
-  </body>
-  </html>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>
