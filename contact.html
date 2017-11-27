@@ -1,102 +1,90 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta charset="UTF-8">
   <title>Bootstrap Portfolio</title>
-  <script src="https://use.fontawesome.com/2214a7171f.js"></script><!--  font aweome -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">  
-  <link rel="stylesheet" href="style.css"> 
+  <script src="https://use.fontawesome.com/2214a7171f.js">
+  </script><!--  font aweome -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 </head>
 <body>
-
   <!-- Navagation -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container p-0"> 
-    <a class="navbar-brand" href="index.html">Jeff Studenski</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-        <li class="nav-item"><a class="nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a></li>
-      </ul><!-- navbar-nav -->
-    </div><!-- collapse -->
-  </div><!-- container -->
+    <div class="container p-0">
+      <a class="navbar-brand" href="index.html">Jeff Studenski</a> <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+          </li>
+        </ul><!-- navbar-nav -->
+      </div><!-- collapse -->
+    </div><!-- container -->
   </nav><!-- navbar -->
-
   <!-- Body -->
   <div class="container">
     <div class="row justify-content-between">
       <div class="card col-lg-8 mt-4">
         <div class="card-body">
-          <h4 class="card-title">Contact</h4><hr>
+          <h4 class="card-title">Contact</h4>
+          <hr>
           <form>
             <div class="form-group">
-              <label for="exampleInputEmail1">Name</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="John Smith">
+              <label for="exampleInputName">Name</label> <input class="form-control" id="exampleInputName" placeholder="John Smith" type="text">
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Email</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="example@gmail.com">
+              <label for="exampleInputEmail">Email</label> <input class="form-control" id="exampleInputEmail" placeholder="example@gmail.com" type="email">
             </div>
-            
             <div class="form-group">
-              <label for="exampleTextarea">Message</label>
-              <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-success mx-auto">Submit</button>
+              <label for="exampleTextarea">Message</label> 
+              <textarea class="form-control" id="exampleTextarea" rows="8"></textarea>
+            </div><button class="btn btn-success" type="submit">Submit</button>
           </form>
         </div><!-- card-body -->
       </div><!-- card col-lg-8 -->
-
-    <div class="col-lg-3 p-0 mt-4"><!-- card height fix -->
-      <div class="card p-0">
-        <div class="card-header">
-          Connect with me
-        </div>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-4 p-1">
-              <a href="https://github.com/jstudenski" target="_blank" class="fa-stack fa-2x mx-auto d-block">
-                <i class="fa fa-square fa-stack-2x btn-outline-dark"></i>
-                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-              </a>
-            </div>
-            <div class="col-4 p-1">
-              <a href="https://www.linkedin.com/in/jeff-studenski-a74285147" target="_blank" class="fa-stack fa-2x mx-auto d-block">
-                <i class="fa fa-square fa-stack-2x btn-outline-dark"></i>
-                <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
-              </a>
-            </div>
-            <div class="col-4 p-1">
-              <a href="https://stackoverflow.com/users/4651885/jstudenski" target="_blank" class="fa-stack fa-2x mx-auto d-block">
-                <i class="fa fa-square fa-stack-2x btn-outline-dark"></i>
-                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-              </a>
-            </div>
-          </div><!-- /row -->
-        </div><!-- card-body -->
-      </div><!-- card -->
-    </div><!-- col-lg-3 -->
-
-  </div><!-- /row justify-content-between -->
-
-
+      <div class="col-lg-3 p-0 mt-4">
+        <!-- card height fix -->
+        <div class="card p-0">
+          <div class="card-header">
+            Connect with me
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-4 p-1">
+                <a class="fa-stack fa-2x mx-auto d-block" href="https://github.com/jstudenski" target="_blank"><i class="fa fa-square fa-stack-2x btn-outline-dark"></i> <i class="fa fa-github fa-stack-1x fa-inverse"></i></a>
+              </div>
+              <div class="col-4 p-1">
+                <a class="fa-stack fa-2x mx-auto d-block" href="https://www.linkedin.com/in/jeff-studenski-a74285147" target="_blank"><i class="fa fa-square fa-stack-2x btn-outline-dark"></i> <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i></a>
+              </div>
+              <div class="col-4 p-1">
+                <a class="fa-stack fa-2x mx-auto d-block" href="https://stackoverflow.com/users/4651885/jstudenski" target="_blank"><i class="fa fa-square fa-stack-2x btn-outline-dark"></i> <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></a>
+              </div>
+            </div><!-- /row -->
+          </div><!-- card-body -->
+        </div><!-- card -->
+      </div><!-- col-lg-3 -->
+    </div><!-- /row justify-content-between -->
   </div><!-- container -->
-
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
       <span class="text-muted">&copy;Copyright 2017 Jeff Studenski</span>
     </div>
   </footer>
-
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <!-- Javascript -->
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js">
+  </script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js">
+  </script> 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js">
+  </script>
 </body>
 </html>

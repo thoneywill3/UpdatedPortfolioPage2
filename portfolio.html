@@ -1,168 +1,125 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta charset="UTF-8">
   <title>Bootstrap Portfolio</title>
-  <script src="https://use.fontawesome.com/2214a7171f.js"></script><!--  font aweome -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">    
-  <link rel="stylesheet" href="style.css"> 
+  <script src="https://use.fontawesome.com/2214a7171f.js">
+  </script><!--  font aweome -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 </head>
 <body>
-
   <!-- Navagation -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container p-0"> 
-      <a class="navbar-brand" href="index.html">Jeff Studenski</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <div class="container p-0">
+      <a class="navbar-brand" href="index.html">Jeff Studenski</a> <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
-          <li class="nav-item"><a class="nav-link active" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
         </ul><!-- navbar-nav -->
       </div><!-- collapse -->
     </div><!-- container -->
   </nav><!-- navbar -->
-
   <!-- Body -->
   <div class="container">
     <div class="row justify-content-between">
       <div class="card col-lg-8 mt-4">
         <div class="card-body">
-          <h4 class="card-title">Portfolio</h4><hr>
+          <h4 class="card-title">Portfolio</h4>
+          <hr>
           <div class="row">
             <div class="card-columns">
-
               <!-- Portfolio Item 1 -->
               <div class="card">
-                <img class="card-img-top" src="images/portfolio_1.png" alt="Portfolio 1 Basic-Portfolio">
+                <img alt="Portfolio 1 Basic-Portfolio" class="card-img-top" src="images/portfolio_1.png">
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item p-1 text-center">
-                    <a href="https://jstudenski.github.io/Basic-Portfolio" target="_blank" class="btn btn-outline-dark">Basic Portfolio</a> 
-                    <a href="https://github.com/jstudenski/Basic-Portfolio" target="_blank" class="btn btn-outline-secondary"><i class="fa fa-github fa-lg"></i></a> 
+                    <a class="btn btn-outline-dark" href="https://jstudenski.github.io/Basic-Portfolio" target="_blank">Basic Portfolio</a> <a class="btn btn-outline-secondary" href="https://github.com/jstudenski/Basic-Portfolio" target="_blank"><i class="fa fa-github fa-lg"></i></a>
                   </li>
-                  <li class="list-group-item bg-light border-0">
-                    Homework Assigment 1: Basic site demonstrating CSS and aligning content
-                  </li>
-                  <li class="list-group-item bg-dark text-center p-1 pb-2">
-                    <span class="badge badge-pill badge-secondary">HTML</span>
-                    <span class="badge badge-pill badge-primary">CSS</span>
-                  </li>
+                  <li class="list-group-item bg-light border-0">Homework Assigment 1: Basic site demonstrating CSS and aligning content</li>
+                  <li class="list-group-item bg-dark text-center p-1 pb-2"><span class="badge badge-pill badge-secondary">HTML</span> <span class="badge badge-pill badge-primary">CSS</span></li>
                 </ul>
               </div><!-- card -->
-
               <!-- Portfolio Item 2 -->
               <div class="card mt-3">
-                <img class="card-img-top" src="images/portfolio_2.png" alt="Portfolio 2 Sassy-Triangles">
+                <img alt="Portfolio 2 Sassy-Triangles" class="card-img-top" src="images/portfolio_2.png">
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item p-1 text-center">
-                    <a href="https://jstudenski.github.io/Sassy-Triangles" target="_blank" class="btn btn-outline-dark">Sassy Triangles</a> 
-                    <a href="https://github.com/jstudenski/Sassy-Triangles" target="_blank" class="btn btn-outline-secondary"><i class="fa fa-github fa-lg"></i></a> 
+                    <a class="btn btn-outline-dark" href="https://jstudenski.github.io/Sassy-Triangles" target="_blank">Sassy Triangles</a> <a class="btn btn-outline-secondary" href="https://github.com/jstudenski/Sassy-Triangles" target="_blank"><i class="fa fa-github fa-lg"></i></a>
                   </li>
-                  <li class="list-group-item bg-light border-0">
-                    A Sass playground
-                  </li>
-                  <li class="list-group-item bg-dark text-center p-1 pb-2">
-                    <span class="badge badge-pill badge-secondary">HTML</span>
-                    <span class="badge badge-pill badge-info">Sass</span>
-                  </li>
+                  <li class="list-group-item bg-light border-0">A Sass playground</li>
+                  <li class="list-group-item bg-dark text-center p-1 pb-2"><span class="badge badge-pill badge-secondary">HTML</span> <span class="badge badge-pill badge-info">Sass</span></li>
                 </ul>
               </div><!-- card -->
-
               <!-- Portfolio Item 3 -->
               <div class="card">
-                <img class="card-img-top" src="images/portfolio_3.png" alt="Portfolio 3 Bootstrap-Portfolio">
+                <img alt="Portfolio 3 Bootstrap-Portfolio" class="card-img-top" src="images/portfolio_3.png">
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item p-1 text-center">
-                    <a href="https://jstudenski.github.io/Bootstrap-Portfolio" target="_blank" class="btn btn-outline-dark">Bootstrap Portfolio</a> 
-                    <a href="ttps://github.com/jstudenski/Bootstrap-Portfolio" target="_blank" class="btn btn-outline-secondary"><i class="fa fa-github fa-lg"></i></a> 
+                    <a class="btn btn-outline-dark" href="https://jstudenski.github.io/Bootstrap-Portfolio" target="_blank">Bootstrap Portfolio</a> <a class="btn btn-outline-secondary" href="ttps://github.com/jstudenski/Bootstrap-Portfolio" target="_blank"><i class="fa fa-github fa-lg"></i></a>
                   </li>
-                  <li class="list-group-item bg-light border-0">
-                    This Site: Pure bootstrap styling
-                  </li>
-                  <li class="list-group-item bg-dark text-center p-1 pb-2">
-                    <span class="badge badge-pill badge-secondary">HTML</span>
-                    <span class="badge badge-pill badge-danger">Bootstrap</span>
-                  </li>
+                  <li class="list-group-item bg-light border-0">This Site: Pure bootstrap styling</li>
+                  <li class="list-group-item bg-dark text-center p-1 pb-2"><span class="badge badge-pill badge-secondary">HTML</span> <span class="badge badge-pill badge-danger">Bootstrap</span></li>
                 </ul>
               </div><!-- card -->
-
               <!-- Portfolio Item 4 -->
               <div class="card mt-3">
-                <img class="card-img-top" src="images/portfolio_4.png" alt="Portfolio 4 Responsive-Portfolio">
+                <img alt="Portfolio 4 Responsive-Portfolio" class="card-img-top" src="images/portfolio_4.png">
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item p-1 text-center">
-                    <a href="https://jstudenski.github.io/Responsive-Portfolio" target="_blank" class="btn btn-outline-dark">Responsive Portfolio</a> 
-                    <a href="https://github.com/jstudenski/Responsive-Portfolio" target="_blank" class="btn btn-outline-secondary"><i class="fa fa-github fa-lg"></i></a> 
+                    <a class="btn btn-outline-dark" href="https://jstudenski.github.io/Responsive-Portfolio" target="_blank">Responsive Portfolio</a> <a class="btn btn-outline-secondary" href="https://github.com/jstudenski/Responsive-Portfolio" target="_blank"><i class="fa fa-github fa-lg"></i></a>
                   </li>
-                  <li class="list-group-item bg-light border-0">
-                    Basic site using media queries for responsive design
-                  </li>
-                  <li class="list-group-item bg-dark text-center p-1 pb-2">
-                    <span class="badge badge-pill badge-secondary">HTML</span>
-                    <span class="badge badge-pill badge-info">Sass</span>
-                  </li>
+                  <li class="list-group-item bg-light border-0">Basic site using media queries for responsive design</li>
+                  <li class="list-group-item bg-dark text-center p-1 pb-2"><span class="badge badge-pill badge-secondary">HTML</span> <span class="badge badge-pill badge-info">Sass</span></li>
                 </ul>
               </div><!-- card -->
-
             </div><!-- card-columns -->
           </div><!-- row -->
         </div><!-- card-body -->
       </div><!-- card col-lg-8 -->
-
-      <div class="col-lg-3 p-0 mt-4"><!-- card height fix -->
+      <div class="col-lg-3 p-0 mt-4">
+        <!-- card height fix -->
         <div class="card p-0">
           <div class="card-header">
             Connect with me
           </div>
           <div class="card-body">
             <div class="row">
-            <div class="col-4 p-1">
-              <a href="https://github.com/jstudenski" target="_blank" class="fa-stack fa-2x mx-auto d-block">
-                <i class="fa fa-square fa-stack-2x btn-outline-dark"></i>
-                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-              </a>
-            </div>
-            <div class="col-4 p-1">
-              <a href="https://www.linkedin.com/in/jeff-studenski-a74285147" target="_blank" class="fa-stack fa-2x mx-auto d-block">
-                <i class="fa fa-square fa-stack-2x btn-outline-dark"></i>
-                <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
-              </a>
-            </div>
-            <div class="col-4 p-1">
-              <a href="https://stackoverflow.com/users/4651885/jstudenski" target="_blank" class="fa-stack fa-2x mx-auto d-block">
-                <i class="fa fa-square fa-stack-2x btn-outline-dark"></i>
-                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-              </a>
-            </div>
+              <div class="col-4 p-1">
+                <a class="fa-stack fa-2x mx-auto d-block" href="https://github.com/jstudenski" target="_blank"><i class="fa fa-square fa-stack-2x btn-outline-dark"></i> <i class="fa fa-github fa-stack-1x fa-inverse"></i></a>
+              </div>
+              <div class="col-4 p-1">
+                <a class="fa-stack fa-2x mx-auto d-block" href="https://www.linkedin.com/in/jeff-studenski-a74285147" target="_blank"><i class="fa fa-square fa-stack-2x btn-outline-dark"></i> <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i></a>
+              </div>
+              <div class="col-4 p-1">
+                <a class="fa-stack fa-2x mx-auto d-block" href="https://stackoverflow.com/users/4651885/jstudenski" target="_blank"><i class="fa fa-square fa-stack-2x btn-outline-dark"></i> <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></a>
+              </div>
             </div><!-- /row -->
           </div><!-- card-body -->
         </div><!-- card -->
       </div><!-- col-lg-3 -->
     </div><!-- /row justify-content-between -->
-
-  <!-- <div class="row">
-    <nav class="navbar fixed-bottom navbar-light bg-light">
-      <div class="container">
-        <span class="navbar-text mx-auto">&copy;Copyright 2017 Jeff Studenski</span>
-      </div>
-    </nav> -->
-  </div><!-- /row -->
-</div><!-- container -->
-
-
+  </div><!-- container -->
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
       <span class="text-muted">&copy;Copyright 2017 Jeff Studenski</span>
     </div>
-  </footer>
-
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </footer><!-- Javascript -->
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js">
+  </script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js">
+  </script> 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js">
+  </script>
 </body>
 </html>
