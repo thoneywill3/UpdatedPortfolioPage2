@@ -1,6 +1,8 @@
 # Bootstrap-Portfolio
 
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-4.0.0--beta.2-blue.svg)](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+[![FontAwesome](https://img.shields.io/badge/Font%20Awesome-4.7-green.svg)](http://fontawesome.io/whats-new/)
+
 
 ### To Do:
 > - ~~Add 'responsive-portfolio' portfolio image~~
