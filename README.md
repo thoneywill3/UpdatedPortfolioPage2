@@ -5,6 +5,7 @@
 
 
 ### To Do:
+> - Favicons
 > - ~~Add 'responsive-portfolio' portfolio image~~
 > - ~~Update portfolio image alt tags~~
 > - ~~Get JS working for nav bar menu~~
