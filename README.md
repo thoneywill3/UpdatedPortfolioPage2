@@ -1,6 +1,8 @@
 # Bootstrap Portfolio
 U of M Coding Bootcamp: Homework Assigment 2 (Part 1)
 
+Pure Bootstrap Styling, additional style.css taken from bootstrap documentation. 
+
 ### Quick Start
 Open index.html
 
